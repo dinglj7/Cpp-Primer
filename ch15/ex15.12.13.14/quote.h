@@ -13,7 +13,7 @@ public:
 
     std::string     isbn() const { return bookNo; }
     virtual double  net_price(std::size_t n) const { return n * price; }
-    virtual void    debug() const;
+    virtual void    debug() const {};
 
     virtual ~Quote() = default;
 
