@@ -5,7 +5,7 @@
 class Disc_quote : public Quote
 {
 public:
-    Disc_quote();
+    Disc_quote() = default;
     Disc_quote(const std::string& b, double p, std::size_t q, double d) :
         Quote(b, p), quantity(q), discount(d)   { }
 
